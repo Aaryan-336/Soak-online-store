@@ -1,53 +1,61 @@
 <div align="center">
 
-<img src="assets/banner.png.png" alt="Soak Banner" width="100%">
+<img src="assets/banner.png" alt="Soak Old Money Banner" width="100%">
 
-# ✨ Soak Online Store ✨
-### *Nurture Your Skin. Elevate Your Self.*
+# ⚜️ Soak Boutique ⚜️
+### *Timeless Sophistication. Curated for the Modern Heritage.*
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
 [![Express](https://img.shields.io/badge/Express-Backend-blue.svg?logo=express)](https://expressjs.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)](https://www.mongodb.com/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Styling-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
-[![Razorpay](https://img.shields.io/badge/Razorpay-Payments-02042B?logo=razorpay)](https://razorpay.com/)
+[![Aesthetic](https://img.shields.io/badge/Aesthetic-Old%20Money-DEB887)](https://pinterest.com/)
 
 ---
 
-**Soak** is a premium, full-stack e-commerce platform dedicated to high-end skincare. It features a stunning, minimalistic design and a robust set of features for both customers and administrators.
+**Soak** is a high-end, full-stack e-commerce platform designed for the "Old Money" aesthetic. Combining timeless fashion with a modern **Pinterest-style discovery layout**, Soak makes curation the center of the shopping experience.
 
-[Demo Store](http://localhost:3000) • [Admin Dashboard](http://localhost:3000/admin) • [API Specs](http://localhost:4000)
+[Browse Collection](http://localhost:3000) • [Curation Tools](http://localhost:3000/admin) • [Inventory Specs](http://localhost:4000)
 
 </div>
 
+## 🏛️ Project Vision
+
+### 🖼️ Pinterest-Style Discovery
+- **Visual-First UI**: Clothes are presented in a dynamic masonry grid, allowing colors and textures to "pop" just like a curated Pinterest board.
+- **Infinite Inspiration**: Designed for discovery, the UI encourages users to explore collections through visual flow rather than rigid lists.
+
+### 🧵 The "Old Money" Experience
+- **Quiet Luxury**: Minimalistic storefront focusing on high-quality fabrics—Cashmere, Linen, and Silk.
+- **Timeless Layout**: Clean lines, serif typography, and a neutral color palette evoking the heritage and sophistication of the elite.
+- **Curated Essentials**: A boutique feel where every piece is a staple, not just a trend.
+
+---
+
 ## 🌟 Key Features
 
-### 🛍️ Customer Experience
-- **Immersive Storefront**: A fluid, responsive shopping experience with a focus on high-quality visuals and typography.
-- **Onboarding Experience**: Personalized welcome flow for new users.
-- **Smart Cart**: Real-time cart management with seamless local persistence.
-- **Secure Payments**: Fully integrated with **Razorpay** for a localized, safe transaction flow.
-- **Order Tracking**: Visual timeline of order status from processing to delivery.
+### 🛍️ Client Interface
+- **Pinterest-Style Grid**: A fluid, Pinterest-inspired masonry layout that highlights product photography.
+- **Seamless Checkout**: Integrated with **Razorpay** for a secure, uninterrupted payment flow.
+- **Visual Order Tracking**: A beautiful, timeline-based tracking system to keep customers updated.
 
-### ⚙️ Administration
-- **Centralized Dashboard**: Track analytics, sales performance, and active orders at a glance.
-- **Product Management**: Intuitive interface to add, edit, and manage inventory with high-res images.
-- **Efficient Order Processing**: Update shipment statuses and notify customers automatically.
+### 🛠️ Admin Control
+- **Curation Dashboard**: Manage the visual flow of the store, ensuring the aesthetic remains consistent.
+- **Analytics & Insights**: Track which "pins" (products) are converting and manage high-end inventory.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend & UI
-- **Framework**: [Next.js](https://nextjs.org/) (React 18)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/) & [Swiper.js](https://swiperjs.com/)
-- **State Management**: SWR for efficient data fetching.
+- **Next.js 14**: Server-side rendering for optimal SEO and performance.
+- **Tailwind CSS**: Custom utility-first styling for that precise "Old Money" look.
+- **Swiper & Interactivity**: Smooth transitions and sliders for a mobile-first, tactile feel.
 
-### Backend & Cloud
-- **Runtime**: Node.js & Express
-- **Database**: MongoDB Atlas with Mongoose
-- **Image Hosting**: [Cloudinary](https://cloudinary.com/)
-- **Email Service**: Nodemailer (Custom Transactional Templates)
+### Backend & Infrastructure
+- **Node.js/Express**: Robust API handling order flow and user authentication.
+- **MongoDB Atlas**: Scalable NoSQL database for flexible product schemas.
+- **Cloudinary**: High-performance image hosting to ensure fashion photography pops.
 
 ---
 
@@ -66,31 +74,25 @@
    cd Soak-online-store
    ```
 
-2. **Setup Backend**
-   ```bash
-   cd backend
-   npm install
-   # Create a .env file with your credentials (see .env.example)
-   npm run dev
-   ```
+2. **Setup Environment**
+   - Populate `backend/.env` with your MongoDB and API credentials.
+   - Set `store-app/.env.local` to point to your local API.
 
-3. **Setup Frontend**
+3. **Run Development Mode**
    ```bash
-   cd ../store-app
-   npm install
-   # Create a .env.local file (see .env.local.example)
+   # Both Backend and Frontend
    npm run dev
    ```
 
 ---
 
-## 🎨 Design Philosophy
-The **Soak** design language is built on the principles of **Minimalism**, **Serenity**, and **Clarity**. We use a curated color palette of **Sage Green**, **Warm Creams**, and **Deep Slate** to evoke a sense of calm and luxury, perfectly aligned with the premium skincare segment.
+## 🏛️ Design Identity
+The **Soak** aesthetic is defined by **Understated Elegance**. We avoid loud branding in favor of subtle textures and a refined color palette: **Deep Navy**, **Antique Cream**, **Sage Green**, and **Mahogany**.
 
 ---
 
 <div align="center">
 
-Made with ♥ by [Aaryan Khanna](https://github.com/Aaryan-336)
+Established 2024 • Curated by [Aaryan Khanna](https://github.com/Aaryan-336)
 
 </div>
