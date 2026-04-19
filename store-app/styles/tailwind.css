@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+:root {
+  --royal-green: #0f3d13;
+  --soft-cream: #fbfaf6;
+  --rust: #b86b3a;
+  --card-shadow: 0 6px 20px rgba(15,61,19,0.06);
+}
+
+body {
+  background: linear-gradient(180deg, #fffefb 0%, #fbfaf6 100%);
+  color: #0b1220;
+}
+
+/* subtle textured hero background */
+.hero-texture {
+  background-image: radial-gradient(rgba(0,0,0,0.02) 1px, transparent 1px);
+  background-size: 12px 12px;
+}
+
+/* card hover */
+.card-hover { transition: transform .18s ease, box-shadow .18s ease; }
+.card-hover:hover { transform: translateY(-6px); box-shadow: var(--card-shadow); }
+
+/* Make Google Sign-in button pill-shaped */
+#googleBtn div[role="button"] {
+    border-radius: 9999px !important;
+    width: 100% !important;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    overscroll-behavior: none;
+    touch-action: manipulation;
+  }
+  
+
+  .swiper {
+    width: 100%;
+    height: auto !important;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+
+# Production
+build/
+
+# Misc
+.DS_Store
+*.pem
+
+# Environment Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.sample
+
+# Local settings
+.vscode/
+.idea/
+
+# Backups
+soak-store-app-backup/

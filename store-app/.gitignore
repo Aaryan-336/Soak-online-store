@@ -1,0 +1,15 @@
+node_modules/
+.env
+.next/
+dist/
+node_modules/
+.next/
+.env
+node_modules/
+.next/
+.env
+node_modules/
+.next/
+.env
+.DS_Store
+.env.local
