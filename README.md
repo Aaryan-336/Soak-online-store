@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Soak Old Money Banner" width="100%">
-
-# ⚜️ Soak Boutique ⚜️
+# ⚜️ Soak Store ⚜️
 ### *Timeless Sophistication. Curated for the Modern Heritage.*
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
